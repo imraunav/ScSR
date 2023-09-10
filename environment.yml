@@ -2,10 +2,17 @@ name: ScSR
 channels:
   - defaults
 dependencies:
+  - blas=1.0=openblas
   - ca-certificates=2023.08.22=hca03da5_0
   - libcxx=14.0.6=h848a8c0_0
   - libffi=3.4.4=hca03da5_0
+  - libgfortran=5.0.0=11_3_0_hca03da5_28
+  - libgfortran5=11.3.0=h009349e_28
+  - libopenblas=0.3.21=h269037a_0
+  - llvm-openmp=14.0.6=hc6e5704_0
   - ncurses=6.4=h313beb8_0
+  - numpy=1.25.2=py39h3b2db8e_0
+  - numpy-base=1.25.2=py39ha9811e2_0
   - openssl=3.0.10=h1a28f6b_2
   - pip=23.2.1=py39hca03da5_0
   - python=3.9.17=hb885b13_0
@@ -13,6 +20,7 @@ dependencies:
   - setuptools=68.0.0=py39hca03da5_0
   - sqlite=3.41.2=h80987f9_0
   - tk=8.6.12=hb8d0fd4_0
+  - tqdm=4.65.0=py39h86d0a89_0
   - tzdata=2023c=h04d1e81_0
   - wheel=0.38.4=py39hca03da5_0
   - xz=5.4.2=h80987f9_0
@@ -76,7 +84,6 @@ dependencies:
       - nbformat==5.9.2
       - nest-asyncio==1.5.7
       - notebook-shim==0.2.3
-      - numpy==1.25.2
       - opencv-python==4.8.0.76
       - overrides==7.4.0
       - packaging==23.1
