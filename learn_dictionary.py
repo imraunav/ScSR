@@ -1,4 +1,4 @@
-from sklearn.decomposition import DictionaryLearning
+from sklearn.decomposition import MiniBatchDictionaryLearning
 import cv2
 import numpy as np
 import pickle
@@ -23,7 +23,7 @@ def save(D, name):
 
 def main():
     n_atoms = 1024
-    batch_size = 50
+    batch_size = 256
     max_iter = 1000
     patchsize = 3
     up_scale = 3
@@ -54,13 +54,12 @@ def main():
     M = Xl.shape[1]
     coupled_patches = np.concatenate((Xh*np.sqrt(N), Xl*np.sqrt(M)), axis=1)
     tic = time.perf_counter()
-    dict_learn_compact = DictionaryLearning(n_components=n_atoms, 
-                                            alpha=1, 
+    dict_learn_compact = MiniBatchDictionaryLearning(n_components=n_atoms,batch_size=batch_size, 
                                             verbose=True,
                                             transform_algorithm='omp', 
                                             max_iter=max_iter,
-                                            n_jobs=-1,
-                                            callback=mycallback)
+                                            n_jobs=-1)
+                                            # callback=mycallback)
     dict_learn_compact.fit(coupled_patches)
     Dc = dict_learn_compact.components_
     toc = time.perf_counter()

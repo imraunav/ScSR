@@ -1,0 +1,437 @@
+==========================================
+SLURM_CLUSTER_NAME = paramhimalaya
+SLURM_ARRAY_JOB_ID = 
+SLURM_ARRAY_TASK_ID = 
+SLURM_ARRAY_TASK_COUNT = 
+SLURM_ARRAY_TASK_MAX = 
+SLURM_ARRAY_TASK_MIN = 
+SLURM_JOB_ACCOUNT = iitmandi
+SLURM_JOB_ID = 476673
+SLURM_JOB_NAME = ScSR
+SLURM_JOB_NODELIST = hm017
+SLURM_JOB_USER = ravnavg.scee.iitmandi
+SLURM_JOB_UID = 46132
+SLURM_JOB_PARTITION = hm
+SLURM_TASK_PID = 16229
+SLURM_SUBMIT_DIR = /home/ravnavg.scee.iitmandi/ScSR
+SLURM_CPUS_ON_NODE = 16
+SLURM_NTASKS = 16
+SLURM_TASK_PID = 16229
+==========================================
+Reading samples from /trainset/ ...
+  0%|          | 0/800 [00:00<?, ?it/s]  0%|          | 1/800 [00:00<09:43,  1.37it/s]  0%|          | 4/800 [00:00<02:17,  5.80it/s]  1%|          | 8/800 [00:00<01:08, 11.56it/s]  2%|▏         | 12/800 [00:01<00:45, 17.24it/s]  2%|▏         | 17/800 [00:01<00:33, 23.38it/s]  3%|▎         | 23/800 [00:01<00:24, 31.39it/s]  4%|▍         | 31/800 [00:01<00:18, 41.05it/s]  4%|▍         | 36/800 [00:01<00:19, 39.98it/s]  5%|▌         | 41/800 [00:01<00:17, 42.39it/s]  6%|▌         | 46/800 [00:01<00:18, 41.58it/s]  7%|▋         | 54/800 [00:01<00:14, 50.75it/s]  8%|▊         | 60/800 [00:02<00:17, 43.20it/s]  8%|▊         | 65/800 [00:02<00:16, 43.32it/s]  9%|▉         | 70/800 [00:02<00:16, 44.96it/s]  9%|▉         | 75/800 [00:02<00:16, 44.03it/s] 10%|█         | 82/800 [00:02<00:14, 50.12it/s] 11%|█         | 88/800 [00:02<00:14, 47.93it/s] 12%|█▏        | 93/800 [00:02<00:19, 36.22it/s] 12%|█▏        | 99/800 [00:02<00:16, 41.28it/s] 13%|█▎        | 107/800 [00:03<00:14, 48.35it/s] 14%|█▍        | 113/800 [00:03<00:16, 42.68it/s] 15%|█▍        | 118/800 [00:03<00:18, 37.14it/s] 16%|█▌        | 124/800 [00:03<00:17, 39.18it/s] 17%|█▋        | 133/800 [00:03<00:14, 47.37it/s] 17%|█▋        | 139/800 [00:03<00:15, 43.01it/s] 18%|█▊        | 147/800 [00:04<00:13, 48.96it/s] 19%|█▉        | 153/800 [00:04<00:13, 47.63it/s] 20%|██        | 160/800 [00:04<00:12, 52.82it/s] 21%|██        | 166/800 [00:04<00:12, 50.79it/s] 22%|██▏       | 172/800 [00:04<00:11, 52.57it/s] 22%|██▏       | 178/800 [00:04<00:13, 44.54it/s] 23%|██▎       | 184/800 [00:04<00:13, 47.27it/s] 24%|██▍       | 190/800 [00:04<00:12, 50.10it/s] 24%|██▍       | 196/800 [00:05<00:16, 35.64it/s] 25%|██▌       | 201/800 [00:05<00:15, 37.73it/s] 26%|██▌       | 207/800 [00:05<00:14, 40.64it/s] 27%|██▋       | 213/800 [00:05<00:13, 43.74it/s] 28%|██▊       | 220/800 [00:05<00:11, 48.63it/s] 28%|██▊       | 226/800 [00:05<00:11, 51.13it/s] 29%|██▉       | 234/800 [00:05<00:09, 58.21it/s] 30%|███       | 241/800 [00:05<00:09, 57.24it/s] 31%|███       | 247/800 [00:06<00:10, 50.62it/s] 32%|███▏      | 253/800 [00:06<00:10, 49.98it/s] 32%|███▏      | 259/800 [00:06<00:10, 52.37it/s] 33%|███▎      | 265/800 [00:06<00:10, 51.35it/s] 34%|███▍      | 273/800 [00:06<00:09, 58.16it/s] 35%|███▍      | 279/800 [00:06<00:09, 55.12it/s] 36%|███▌      | 285/800 [00:06<00:11, 44.47it/s] 36%|███▋      | 292/800 [00:07<00:10, 49.60it/s] 37%|███▋      | 298/800 [00:07<00:09, 51.23it/s] 38%|███▊      | 304/800 [00:07<00:09, 51.60it/s] 39%|███▉      | 315/800 [00:07<00:07, 64.77it/s] 40%|████      | 324/800 [00:07<00:06, 71.40it/s] 42%|████▏     | 332/800 [00:07<00:06, 71.09it/s] 42%|████▎     | 340/800 [00:07<00:06, 70.14it/s] 44%|████▎     | 349/800 [00:07<00:06, 74.98it/s] 45%|████▍     | 357/800 [00:07<00:06, 66.44it/s] 46%|████▌     | 367/800 [00:08<00:05, 73.86it/s] 47%|████▋     | 375/800 [00:08<00:05, 72.26it/s] 48%|████▊     | 383/800 [00:08<00:06, 67.12it/s] 49%|████▉     | 390/800 [00:08<00:06, 60.96it/s] 50%|████▉     | 397/800 [00:08<00:06, 63.08it/s] 51%|█████     | 408/800 [00:08<00:05, 71.15it/s] 52%|█████▏    | 416/800 [00:08<00:05, 67.41it/s] 53%|█████▎    | 423/800 [00:08<00:05, 63.64it/s] 54%|█████▍    | 430/800 [00:09<00:05, 63.68it/s] 55%|█████▍    | 437/800 [00:09<00:05, 62.64it/s] 56%|█████▌    | 444/800 [00:09<00:05, 60.97it/s] 56%|█████▋    | 451/800 [00:09<00:05, 58.51it/s] 57%|█████▋    | 457/800 [00:09<00:06, 56.64it/s] 58%|█████▊    | 466/800 [00:09<00:05, 63.63it/s] 59%|█████▉    | 473/800 [00:09<00:05, 60.86it/s] 60%|██████    | 480/800 [00:09<00:05, 58.08it/s] 61%|██████    | 486/800 [00:10<00:05, 56.57it/s] 62%|██████▏   | 492/800 [00:10<00:05, 55.89it/s] 62%|██████▏   | 498/800 [00:10<00:05, 56.74it/s] 63%|██████▎   | 504/800 [00:10<00:05, 52.64it/s] 64%|██████▍   | 510/800 [00:10<00:05, 53.75it/s] 64%|██████▍   | 516/800 [00:10<00:05, 49.31it/s] 65%|██████▌   | 523/800 [00:10<00:05, 53.35it/s] 66%|██████▌   | 529/800 [00:10<00:05, 48.59it/s] 67%|██████▋   | 535/800 [00:10<00:05, 51.02it/s] 68%|██████▊   | 544/800 [00:11<00:04, 60.55it/s] 69%|██████▉   | 552/800 [00:11<00:03, 65.37it/s] 70%|███████   | 561/800 [00:11<00:03, 66.15it/s] 71%|███████   | 568/800 [00:11<00:03, 63.84it/s] 72%|███████▏  | 575/800 [00:11<00:03, 61.92it/s] 73%|███████▎  | 582/800 [00:11<00:04, 49.90it/s] 74%|███████▎  | 588/800 [00:11<00:04, 44.27it/s] 74%|███████▍  | 596/800 [00:12<00:04, 49.85it/s] 75%|███████▌  | 602/800 [00:12<00:03, 49.76it/s] 76%|███████▌  | 608/800 [00:12<00:03, 51.12it/s] 77%|███████▋  | 614/800 [00:12<00:03, 50.26it/s] 78%|███████▊  | 620/800 [00:12<00:03, 48.11it/s] 78%|███████▊  | 627/800 [00:12<00:03, 52.75it/s] 79%|███████▉  | 635/800 [00:12<00:02, 58.89it/s] 80%|████████  | 644/800 [00:12<00:02, 63.27it/s] 81%|████████▏ | 651/800 [00:13<00:02, 56.41it/s] 82%|████████▏ | 657/800 [00:13<00:02, 48.87it/s] 83%|████████▎ | 665/800 [00:13<00:02, 55.69it/s] 84%|████████▍ | 673/800 [00:13<00:02, 61.55it/s] 85%|████████▌ | 681/800 [00:13<00:01, 65.29it/s] 86%|████████▋ | 692/800 [00:13<00:01, 71.47it/s] 88%|████████▊ | 700/800 [00:13<00:01, 61.51it/s] 88%|████████▊ | 707/800 [00:13<00:01, 58.43it/s] 89%|████████▉ | 714/800 [00:14<00:01, 55.98it/s] 90%|█████████ | 720/800 [00:14<00:01, 55.68it/s] 91%|█████████ | 726/800 [00:14<00:01, 53.37it/s] 92%|█████████▏| 732/800 [00:14<00:01, 46.03it/s] 92%|█████████▏| 738/800 [00:14<00:01, 47.30it/s] 93%|█████████▎| 746/800 [00:14<00:01, 53.84it/s] 94%|█████████▍| 753/800 [00:14<00:00, 54.88it/s] 95%|█████████▌| 762/800 [00:14<00:00, 61.37it/s] 96%|█████████▌| 769/800 [00:15<00:00, 58.86it/s] 97%|█████████▋| 777/800 [00:15<00:00, 60.80it/s] 98%|█████████▊| 785/800 [00:15<00:00, 65.04it/s] 99%|█████████▉| 792/800 [00:15<00:00, 63.12it/s]100%|██████████| 800/800 [00:15<00:00, 51.44it/s]
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+Done!
+Training dictionary...
+[dict_learning]
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    2.0s remaining:   46.5s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    3.4s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.2s remaining:    3.7s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.9s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.8s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.5s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.5s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.5s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.3s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    3.3s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    3.0s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    3.1s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.8s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.7s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.6s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.9s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.8s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.5s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    3.0s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.9s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    3.0s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.6s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.8s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    3.0s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    3.0s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.5s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.9s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.9s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.9s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.6s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    3.1s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.7s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.8s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.9s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    3.1s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.5s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.7s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    3.0s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.9s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.9s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.8s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    3.2s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    3.0s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    3.0s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.4s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    3.0s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    3.0s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.7s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.5s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.6s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.5s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.7s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.7s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.5s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.2s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.5s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.6s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.4s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.2s remaining:    3.9s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.3s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.9s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.1s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    3.0s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.7s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.8s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.6s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.6s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.4s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.7s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.5s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.8s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    3.0s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.8s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.4s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.7s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.8s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    3.0s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.9s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.4s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.9s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.9s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    3.0s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.8s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.8s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.6s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.9s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.5s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    3.0s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.1s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.9s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.7s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.8s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.3s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.6s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.7s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.6s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.5s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.6s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.2s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.4s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.6s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.9s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+[Parallel(n_jobs=-1)]: Using backend LokyBackend with 48 concurrent workers.
+[Parallel(n_jobs=-1)]: Done   2 out of  48 | elapsed:    0.1s remaining:    2.5s
+[Parallel(n_jobs=-1)]: Done  48 out of  48 | elapsed:    0.2s finished
+987 unused atoms resampled.
+Minibatch step 1/2879000: mean batch cost: 0.03110651090253067
+220 unused atoms resampled.
+Minibatch step 2/2879000: mean batch cost: 9.196724232818823
+62 unused atoms resampled.
+Minibatch step 3/2879000: mean batch cost: 8.678390115145996
+7 unused atoms resampled.
+Minibatch step 4/2879000: mean batch cost: 8.432134930030351
+1 unused atoms resampled.
+Minibatch step 5/2879000: mean batch cost: 8.37952163621579
+Minibatch step 6/2879000: mean batch cost: 8.315668264692096
+Minibatch step 7/2879000: mean batch cost: 8.342653452964708
+Minibatch step 8/2879000: mean batch cost: 8.36649095083248
+Minibatch step 9/2879000: mean batch cost: 8.282494087446963
+Minibatch step 10/2879000: mean batch cost: 8.218649120917384
+Minibatch step 11/2879000: mean batch cost: 8.295273139015034
+Minibatch step 12/2879000: mean batch cost: 8.265921288742666
+Minibatch step 13/2879000: mean batch cost: 8.232722087109307
+Minibatch step 14/2879000: mean batch cost: 8.209790977682392
+Minibatch step 15/2879000: mean batch cost: 8.184690238213554
+Minibatch step 16/2879000: mean batch cost: 8.349264345889024
+Minibatch step 17/2879000: mean batch cost: 8.30223803835464
+Minibatch step 18/2879000: mean batch cost: 8.222931535287572
+Minibatch step 19/2879000: mean batch cost: 8.175587317441426
+Minibatch step 20/2879000: mean batch cost: 8.267059342146029
+Minibatch step 21/2879000: mean batch cost: 8.20242579381641
+Minibatch step 22/2879000: mean batch cost: 8.17810205086496
+Minibatch step 23/2879000: mean batch cost: 8.152027693282978
+Minibatch step 24/2879000: mean batch cost: 8.170562653876408
+Minibatch step 25/2879000: mean batch cost: 8.106794359963233
+Minibatch step 26/2879000: mean batch cost: 8.09309112676477
+Minibatch step 27/2879000: mean batch cost: 8.067421157593262
+Minibatch step 28/2879000: mean batch cost: 8.227132702462637
+Minibatch step 29/2879000: mean batch cost: 8.163248968670105
+Minibatch step 30/2879000: mean batch cost: 8.171606842725112
+Minibatch step 31/2879000: mean batch cost: 8.196412874192
+Minibatch step 32/2879000: mean batch cost: 8.089688152357468
+Minibatch step 33/2879000: mean batch cost: 8.13349104184369
+Minibatch step 34/2879000: mean batch cost: 8.086074031861596
+Minibatch step 35/2879000: mean batch cost: 8.023549807826416
+Minibatch step 36/2879000: mean batch cost: 8.18508705065104
+Minibatch step 37/2879000: mean batch cost: 8.152585164066018
+Minibatch step 38/2879000: mean batch cost: 8.171071101437512
+Minibatch step 39/2879000: mean batch cost: 8.074977474516734
+Minibatch step 40/2879000: mean batch cost: 8.018390596192987
+Minibatch step 41/2879000: mean batch cost: 8.032256692426785
+Minibatch step 42/2879000: mean batch cost: 8.070573041702895
+Minibatch step 43/2879000: mean batch cost: 8.119606598430464
+Minibatch step 44/2879000: mean batch cost: 8.066164443410248
+Minibatch step 45/2879000: mean batch cost: 8.054949209471786
+Minibatch step 46/2879000: mean batch cost: 8.141742830367882
+Minibatch step 47/2879000: mean batch cost: 8.057589803447893
+Minibatch step 48/2879000: mean batch cost: 8.077097440745714
+Minibatch step 49/2879000: mean batch cost: 8.152328176218816
+Minibatch step 50/2879000: mean batch cost: 8.055808793495384
+Minibatch step 51/2879000: mean batch cost: 8.129301372418158
+Minibatch step 52/2879000: mean batch cost: 8.086638113091297
+Minibatch step 53/2879000: mean batch cost: 8.075125576246968
+Minibatch step 54/2879000: mean batch cost: 8.087305857296865
+Minibatch step 55/2879000: mean batch cost: 8.124107388362495
+Minibatch step 56/2879000: mean batch cost: 7.94612204026053
+Minibatch step 57/2879000: mean batch cost: 8.115313155373261
+Minibatch step 58/2879000: mean batch cost: 8.188292448991255
+Minibatch step 59/2879000: mean batch cost: 8.056246575006123
+Minibatch step 60/2879000: mean batch cost: 8.096863242180222
+Minibatch step 61/2879000: mean batch cost: 7.960422374241984
+Minibatch step 62/2879000: mean batch cost: 8.100815958997089
+Minibatch step 63/2879000: mean batch cost: 8.052431007779896
+Minibatch step 64/2879000: mean batch cost: 8.03239088280905
+Minibatch step 65/2879000: mean batch cost: 8.157774368481592
+Minibatch step 66/2879000: mean batch cost: 8.100177572844121
+Minibatch step 67/2879000: mean batch cost: 7.978348666236181
+Minibatch step 68/2879000: mean batch cost: 8.070318188768473
+Minibatch step 69/2879000: mean batch cost: 8.004466559205351
+Minibatch step 70/2879000: mean batch cost: 8.118526642647533
+Minibatch step 71/2879000: mean batch cost: 8.148488446659417
+Minibatch step 72/2879000: mean batch cost: 8.096135489100556
+Minibatch step 73/2879000: mean batch cost: 8.06813683850938
+Minibatch step 74/2879000: mean batch cost: 8.082192081102637
+Minibatch step 75/2879000: mean batch cost: 8.072627522443634
+Minibatch step 76/2879000: mean batch cost: 8.107951509150032
+Minibatch step 77/2879000: mean batch cost: 8.010564282935437
+Minibatch step 78/2879000: mean batch cost: 8.12493291840428
+Minibatch step 79/2879000: mean batch cost: 8.000930088103042
+Minibatch step 80/2879000: mean batch cost: 8.095527243882188
+Minibatch step 81/2879000: mean batch cost: 8.112249862938675
+Minibatch step 82/2879000: mean batch cost: 8.02655289251947
+Minibatch step 83/2879000: mean batch cost: 8.193927097183106
+Minibatch step 84/2879000: mean batch cost: 7.988690431681943
+Minibatch step 85/2879000: mean batch cost: 8.028482195992243
+Minibatch step 86/2879000: mean batch cost: 8.07994701186765
+Minibatch step 87/2879000: mean batch cost: 8.075764615892545
+Minibatch step 88/2879000: mean batch cost: 8.10280470622807
+Minibatch step 89/2879000: mean batch cost: 7.941378839688797
+Minibatch step 90/2879000: mean batch cost: 8.046149362857406
+Minibatch step 91/2879000: mean batch cost: 8.10747238955213
+Minibatch step 92/2879000: mean batch cost: 8.024665354088468
+Minibatch step 93/2879000: mean batch cost: 8.118816268933283
+Minibatch step 94/2879000: mean batch cost: 8.106692635851173
+Minibatch step 95/2879000: mean batch cost: 8.089316570476136
+Minibatch step 96/2879000: mean batch cost: 8.245688009577067
+Minibatch step 97/2879000: mean batch cost: 7.997061158959934
+Minibatch step 98/2879000: mean batch cost: 8.001114920538704
+Minibatch step 99/2879000: mean batch cost: 7.956214479197808
+Minibatch step 100/2879000: mean batch cost: 8.139502099098337
+Minibatch step 101/2879000: mean batch cost: 8.068268933919049, ewa cost: 8.068268933919049
+Converged (small dictionary change) at step 101/2879000
+Time taken to learn the coupled dictionary = 1.3288 mins
+Dictionaries saved!
