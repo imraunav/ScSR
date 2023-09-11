@@ -20,7 +20,7 @@ def data_sample(source, destination, sample_size=96):
         except:
             pass
         l, b, d = im.shape
-        for _ in range(8):
+        for _ in range(8): # extract 8 patches from single high res image
             x = np.random.randint(0, l-sample_size)
             y = np.random.randint(0, b-sample_size)
             sample = im[x:x+sample_size, y:y+sample_size, :]
