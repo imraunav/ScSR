@@ -34,6 +34,7 @@ if __name__=="__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("source", type=str, help="Directory of large dataset")
     parser.add_argument("destination", type=str, help="Directory to store samples")
+    parser.add_argument("size", type=int, help="Size of samples")
     args = parser.parse_args()
 
-    data_sample(args.source, args.destination)
+    data_sample(args.source, args.destination, args.size)
